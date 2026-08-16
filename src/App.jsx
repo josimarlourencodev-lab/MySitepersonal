@@ -1,4 +1,5 @@
-import './App.css'
+import MyPhoto from './assets/MyPhoto.png';
+import './App.css';
 
 function App() {
  
@@ -6,9 +7,14 @@ function App() {
   return (
     <>
       <div>
+        <img src={MyPhoto} alt="" />
+      </div>
+
+      <div>
          <h1>Josimar Chagas</h1>
          <h3>Sou estudante de desenvolvimento de software</h3>
       </div>
+
       <div>
        <p>
           Sou Josimar Chagas Lourenço, estudante técnico de Informática no Brasil. <br />
